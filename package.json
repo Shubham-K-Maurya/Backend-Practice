@@ -1,0 +1,14 @@
+{
+  "name": "backend-practice",
+  "version": "1.0.0",
+  "description": "backend practice from chai aur code youtube channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Shubham Maurya",
+  "license": "ISC"
+}
