@@ -20,7 +20,17 @@ app.use(cookieParser())
 
 
 
+//routes import
+import userRouter from "./routes/user.routes.js"
 
+
+//routes declaration
+// app.get   //we use in app.js but here we segregate the code so we have to use app.use
+
+// app.use("/users",userRouter) 
+app.use("/api/v1/users",userRouter)        //standard practice we have to define api and its version
+//here /usres is aprefix of    http;//localhost:8000/users
+// standard practice =>   http;//localhost:8000/api/v1/users/register
 
 
 
